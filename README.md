@@ -21,7 +21,7 @@ The dataset contains data of defensive throws made to first base and the consequ
 # Feature Engineering
 **Features to Exclude**:
 - `throw_id`: only serves to uniquely identify throws for data management and has cardinality throughout; thus, has no value for modeling purposes
-- ` receiver_position`: has zero cardinality because all instances have `3` as its value; thus, has no value for modeling purposes
+- `receiver_position`: has zero cardinality because all instances have `3` as its value; thus, has no value for modeling purposes
 
 **Engineered Features**:
 - `field_thrower_same`: indicates whether the fielder and thrower are the same player (0: different player, 1: same player) as the throw difficulty can vary depending on the involvement of players
